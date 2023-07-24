@@ -1,0 +1,69 @@
+
+.navContainer {
+  width: 100%;
+}
+.containerIconoTitulo {
+  margin-right: 8%;
+}
+
+.iconoTitulo {
+  width: 12%;
+  height: 91%;
+  margin: 1% 0 0 3%;
+}
+.menu {
+  list-style: none;
+  background: #3066be;
+  margin: auto;
+  display: flex;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover {
+  background: skyblue;
+}
+.titulo2 {
+  color: white;
+  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
+    0 0 5px rgb(0, 38, 255);
+  text-align: center;
+  margin: 2% 0;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  text-align: center;
+  color: skyblue;
+  text-shadow: 0 0 2px lightblue;
+  margin: 20px;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(195, 212, 212);
+  background: rgb(13, 34, 80);
+  box-sizing: content-box;
+  margin: 20px;
+}
+.textohistoria{
+  text-align: center;
+  width: 50%;
+  height: 20%;
+  margin: 0 0 0 25%;
+}
+.titulo {
+  background: #3066be;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Belanosima", sans-serif;
+  text-decoration: none;
+  display: flex;
+}
+

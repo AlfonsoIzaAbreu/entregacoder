@@ -1,0 +1,67 @@
+.navContainer {
+    width: 100%;
+  }
+  .containerIconoTitulo {
+    margin-right: 8%;
+  }
+  
+  .iconoTitulo {
+    width: 12%;
+    height: 91%;
+    margin: 1% 0 0 3%;
+  }
+  .menu {
+    list-style: none;
+    background: #3066be;
+    margin: auto;
+    display: flex;
+  }
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+  }
+  .menu li {
+    display: inline-block;
+    text-align: center;
+  }
+  .menu li a:hover {
+    background: skyblue;
+  }
+  .titulo2 {
+    color: white;
+    text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
+      0 0 5px rgb(0, 38, 255);
+    text-align: center;
+    margin: 2% 0;
+  }
+div.jugadores{
+    margin: 21px 62px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19px);
+    float: left;
+    width: 35px;
+}
+div.jugadores img{
+    width: 500%;
+    height: auto;
+}
+div.jugadores:hover{
+  width: 2%;  
+}
+div.datos{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 0, 0);
+    color: rgb(250, 251, 252);
+    margin: 0px 25px;
+    width: 120px;
+    height: 1px;
+}
+.titulo {
+    background: #3066be;
+    text-align: left;
+    font-size: 40px;
+    font-family: "Belanosima", sans-serif;
+    text-decoration: none;
+    display: flex;
+  }
