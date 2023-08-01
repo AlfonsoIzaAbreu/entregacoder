@@ -1,42 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: none;
   text-decoration: none;
 }
+
 body {
   background-image: url(./img/fondo.jpg);
   background-size: cover;
 }
+
 .menu1 {
   height: 90vh;
   margin: 0.5rem;
   display: grid;
-
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr 1fr 0.8fr;
   gap: 0.5rem;
-
-  grid-template-areas:
-    "historia logo socios"
-    "lbdp     logo plantel"
-    ". resultados .";
+  grid-template-areas: "historia logo socios" "lbdp     logo plantel" ". resultados .";
 }
+
 .nav:hover {
   background-color: darkblue;
 }
+
 .resultados:hover {
-  background-color:skyblue ;
+  background-color: skyblue;
 }
-a{
+
+a {
   color: white;
 }
-.buscadores:hover{
+
+.buscadores:hover {
   font-size: 3rem;
 }
+
 .nav {
   display: flex;
   align-items: center;
@@ -47,6 +48,7 @@ a{
   background-color: skyblue;
   border: solid rgb(101, 199, 238) px;
 }
+
 .logo {
   background-image: url(./img/nacional\ logo.png);
   background-position: center center;
@@ -55,23 +57,29 @@ a{
   font-family: "Oswald", sans-serif;
   align-items: end;
 }
+
 .historia {
   grid-area: historia;
 }
+
 .plantel {
   grid-area: plantel;
 }
+
 .socios {
   grid-area: socios;
 }
+
 .lbdp {
   grid-area: lbdp;
 }
+
 .resultados {
   grid-area: resultados;
   display: flex;
   font-size: 1rem;
 }
+
 .mainInfoPartidos {
   display: flex;
   flex: 1;
@@ -80,9 +88,11 @@ a{
   text-align: center;
   color: white;
 }
+
 .quepartido {
   color: white;
 }
+
 .divResultados {
   display: flex;
 }
@@ -92,62 +102,50 @@ a{
   width: 2rem;
   height: 2rem;
 }
+
 .result {
   width: 3rem;
 }
+
 .plays,
 .proximopartido,
 .partidopasado {
   padding: 1rem;
   border: solid darkblue 2px;
 }
+
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
 }
+
 .redes {
   width: 6vh;
-  background-color: (101, 199, 238);
+  background-color: 101, 199, 238;
 }
+
 @media screen and (max-width: 1024px) {
   .menu1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 0.8fr;
-   
-
-    grid-template-areas:
-      " logo logo "
-      " lbdp   socios"
-      " historia      plantel"
-      " resultados resultados"
+    grid-template-areas: " logo logo " " lbdp   socios" " historia      plantel" " resultados resultados";
   }
 }
 @media screen and (max-width: 450px) {
-  .menu1{
+  .menu1 {
     margin: 0;
-     display:grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 0.5fr;
-     gap: 0;
-
-     grid-template-areas: 
-     "logo"
-     
-     "historia"
-     "plantel"
-     "lbdp"
-     "socios"
-     "resultados"
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr 0.5fr;
+    gap: 0;
+    grid-template-areas: "logo" "historia" "plantel" "lbdp" "socios" "resultados";
   }
-  .nav{
+  .nav {
     border: solid 1px darkblue;
     font-size: 7px;
     margin: 0;
-
-  
   }
-  
-}
+}/*# sourceMappingURL=main.css.map */
