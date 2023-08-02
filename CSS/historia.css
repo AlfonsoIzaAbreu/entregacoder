@@ -11,6 +11,11 @@
   height: 91%;
   margin: 1% 0 0 3%;
 }
+.iconoTitulo:hover{
+    
+  transform: scale(1.2);
+  
+}
 .menu {
   list-style: none;
   background: #3066be;

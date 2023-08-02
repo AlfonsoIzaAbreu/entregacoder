@@ -10,6 +10,11 @@
     height: 91%;
     margin: 1% 0 0 3%;
   }
+  .iconoTitulo:hover{
+    
+    transform: scale(1.2);
+    
+  }
   .menu {
     list-style: none;
     background: #3066be;
@@ -41,13 +46,21 @@ div.jugadores{
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19px);
     float: left;
     width: 35px;
+    animation-name: agrandarse;
+    animation-duration: 2s;
+}
+@keyframes agrandarse{
+  0%{
+    width: 1%;
+  }
+
 }
 div.jugadores img{
     width: 500%;
     height: auto;
 }
 div.jugadores:hover{
-  width: 2%;  
+  transform: scale(1.2); 
 }
 div.datos{
     text-align: center;

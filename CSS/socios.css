@@ -12,6 +12,12 @@
     height: 91%;
     margin: 1% 0 0 3%;
   }
+  .iconoTitulo:hover{
+    
+    transform: scale(1.2);
+    
+    
+  }
   div .menu {
     list-style: none;
     background: #3066be;
@@ -69,7 +75,7 @@
     text-align: center;
 }
 .condisection{
-  background-color: #3066be;
+  background-image: linear-gradient(to top, blue, skyblue);
  border: solid 2px white;
 }
 .titulo {
