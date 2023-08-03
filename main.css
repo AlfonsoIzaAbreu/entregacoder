@@ -7,6 +7,18 @@
   text-decoration: none;
 }
 
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.footer .redes {
+  width: 2rem;
+  height: 2rem;
+  background-color: 101, 199, 238;
+}
+
 body {
   background-image: url(./img/fondo.jpg);
   background-size: cover;
@@ -21,21 +33,20 @@ body {
   gap: 0.5rem;
   grid-template-areas: "historia logo socios" "lbdp     logo plantel" ". resultados .";
 }
-
-.nav:hover {
-  background-color: darkblue;
-}
-
-.resultados:hover {
-  background-color: skyblue;
-}
-
-a {
+.menu1 a {
   color: white;
 }
-
-.buscadores:hover {
-  font-size: 3rem;
+.menu1 .historia {
+  grid-area: historia;
+}
+.menu1 .plantel {
+  grid-area: plantel;
+}
+.menu1 .socios {
+  grid-area: socios;
+}
+.menu1 .lbdp {
+  grid-area: lbdp;
 }
 
 .nav {
@@ -43,10 +54,15 @@ a {
   align-items: center;
   justify-content: center;
   font-family: "Amatic SC", cursive;
-  font-size: 2.5rem;
   color: rgb(255, 253, 253);
   background-color: skyblue;
-  border: solid rgb(101, 199, 238) px;
+}
+.nav .buscadores:hover {
+  font-size: 3rem;
+}
+
+.nav:hover {
+  background-color: darkblue;
 }
 
 .logo {
@@ -58,29 +74,15 @@ a {
   align-items: end;
 }
 
-.historia {
-  grid-area: historia;
-}
-
-.plantel {
-  grid-area: plantel;
-}
-
-.socios {
-  grid-area: socios;
-}
-
-.lbdp {
-  grid-area: lbdp;
-}
-
 .resultados {
   grid-area: resultados;
   display: flex;
   font-size: 1rem;
 }
-
-.mainInfoPartidos {
+.resultados .resultados:hover {
+  background-color: inherit;
+}
+.resultados .mainInfoPartidos {
   display: flex;
   flex: 1;
   justify-content: space-around;
@@ -88,42 +90,25 @@ a {
   text-align: center;
   color: white;
 }
-
-.quepartido {
+.resultados .quepartido {
   color: white;
 }
-
-.divResultados {
+.resultados .divResultados {
   display: flex;
 }
-
-.iconosResultados {
+.resultados .iconosResultados {
   margin: 0 0.5% 0 0.5%;
   width: 2rem;
   height: 2rem;
 }
-
-.result {
+.resultados .result {
   width: 3rem;
 }
-
-.plays,
-.proximopartido,
-.partidopasado {
+.resultados .plays,
+.resultados .proximopartido,
+.resultados .partidopasado {
   padding: 1rem;
   border: solid darkblue 2px;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.redes {
-  width: 6vh;
-  background-color: 101, 199, 238;
 }
 
 @media screen and (max-width: 1024px) {

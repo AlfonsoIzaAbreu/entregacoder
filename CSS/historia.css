@@ -1,9 +1,10 @@
-
 .navContainer {
   width: 100%;
 }
 .containerIconoTitulo {
-  margin-right: 8%;
+  display: flex;
+  align-items: start; 
+  justify-content: start;
 }
 
 .iconoTitulo {
@@ -12,15 +13,17 @@
   margin: 1% 0 0 3%;
 }
 .iconoTitulo:hover{
-    
+  
   transform: scale(1.2);
   
+  
 }
-.menu {
+div .menu {
   list-style: none;
   background: #3066be;
   margin: auto;
   display: flex;
+  justify-content:start, center ;
 }
 .menu li a {
   text-decoration: none;
@@ -34,6 +37,15 @@
 }
 .menu li a:hover {
   background: skyblue;
+}
+.navv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center ;
+}
+ul{
+  margin: 0;
 }
 .titulo2 {
   color: white;
@@ -71,4 +83,29 @@ h3 {
   text-decoration: none;
   display: flex;
 }
+@media screen and (max-width: 1024px) {
+  .iconoTitulo{
+  width: 70px;
+  height: auto;
+  padding: 1rem;
+  }
+  img{
+    width: 65%;
+  }
+  *{
+    font-size: 1rem;
+  }
+  
+  }
+  @media screen and (max-width: 540px){
+  .menu li a{
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+  .iconoTitulo{
+    width: 50px;
+    height: auto;
+    padding: 0.5rem;
+  }
+  }
 

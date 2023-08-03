@@ -15,8 +15,7 @@
   .iconoTitulo:hover{
     
     transform: scale(1.2);
-    
-    
+     
   }
   div .menu {
     list-style: none;
@@ -43,6 +42,9 @@
     justify-content: center;
     align-items: center;
     align-content: center ;
+  }
+  ul{
+    margin: 0;
   }
   .titulo2 {
     color: white;

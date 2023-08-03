@@ -1,80 +1,113 @@
 .navContainer {
-    width: 100%;
-  }
-  .containerIconoTitulo {
-    margin-right: 8%;
-  }
-  
-  .iconoTitulo {
-    width: 12%;
-    height: 91%;
-    margin: 1% 0 0 3%;
-  }
-  .iconoTitulo:hover{
-    
-    transform: scale(1.2);
-    
-  }
-  .menu {
-    list-style: none;
-    background: #3066be;
-    margin: auto;
-    display: flex;
-  }
-  .menu li a {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-  }
-  .menu li {
-    display: inline-block;
-    text-align: center;
-  }
-  .menu li a:hover {
-    background: skyblue;
-  }
-  .titulo2 {
-    color: white;
-    text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
-      0 0 5px rgb(0, 38, 255);
-    text-align: center;
-    margin: 2% 0;
-  }
-div.jugadores{
-    margin: 21px 62px;
-    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19px);
-    float: left;
-    width: 35px;
-    animation-name: agrandarse;
-    animation-duration: 2s;
+  width: 100%;
 }
-@keyframes agrandarse{
-  0%{
+.containerIconoTitulo {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.iconoTitulo {
+  width: 12%;
+  height: 91%;
+  margin: 1% 0 0 3%;
+}
+.iconoTitulo:hover {
+  transform: scale(1.2);
+}
+div .menu {
+  list-style: none;
+  background: #3066be;
+  margin: auto;
+  display: flex;
+  justify-content: start, center;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu li a:hover {
+  background: skyblue;
+}
+.navv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+ul{
+  margin: 0;
+}
+.titulo2 {
+  color: white;
+  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
+    0 0 5px rgb(0, 38, 255);
+  text-align: center;
+  margin: 2% 0;
+}
+div.jugadores {
+  margin: 21px 62px;
+  box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19px);
+  float: left;
+  width: 35px;
+  animation-name: agrandarse;
+  animation-duration: 2s;
+}
+@keyframes agrandarse {
+  0% {
     width: 1%;
   }
-
 }
-div.jugadores img{
-    width: 500%;
-    height: auto;
+div.jugadores img {
+  width: 500%;
+  height: auto;
 }
-div.jugadores:hover{
-  transform: scale(1.2); 
+div.jugadores:hover {
+  transform: scale(1.2);
 }
-div.datos{
-    text-align: center;
-    text-shadow: 2px 2px 2px rgb(255, 0, 0);
-    color: rgb(250, 251, 252);
-    margin: 0px 25px;
-    width: 120px;
-    height: 1px;
+div.datos {
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(255, 0, 0);
+  color: rgb(250, 251, 252);
+  margin: 0px 25px;
+  width: 120px;
+  height: 1px;
 }
 .titulo {
-    background: #3066be;
-    text-align: left;
-    font-size: 40px;
-    font-family: "Belanosima", sans-serif;
-    text-decoration: none;
-    display: flex;
+  background: #3066be;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Belanosima", sans-serif;
+  text-decoration: none;
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  .iconoTitulo {
+    width: 70px;
+    height: auto;
+    padding: 1rem;
   }
+  img {
+    width: 65%;
+  }
+  * {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .menu li a {
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+  .iconoTitulo {
+    width: 50px;
+    height: auto;
+    padding: 0.5rem;
+  }
+}

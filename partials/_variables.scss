@@ -1,0 +1,7 @@
+$colorprincipal: rgb(160, 226, 252);
+
+@mixin flex-center {
+    display: flex; 
+    align-items: center;
+     justify-content: center;
+}

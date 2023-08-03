@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    .redes {
+      width: 2rem;
+      height: 2rem;
+      background-color: (101, 199, 238);
+    }
+  }
