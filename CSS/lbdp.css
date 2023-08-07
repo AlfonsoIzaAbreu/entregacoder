@@ -95,7 +95,12 @@ div .videolbdp{
     *{
       font-size: 1rem;
     }
-    
+    .lbdptext{
+    margin: 1px , auto;
+    }
+    h2{ 
+      font-size: 1.2rem;
+    }
     }
     @media screen and (max-width: 540px){
     .menu li a{
@@ -108,9 +113,12 @@ div .videolbdp{
       padding: 0.5rem;
     }
     .lbdptext{
-      font-size: 1rem;
+      font-size: 0.5rem;
     margin: 1px ,auto;
     text-align: center;
 
+    }
+    h2{ 
+      font-size: 1rem;
     }
     }

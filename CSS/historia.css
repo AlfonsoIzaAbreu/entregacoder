@@ -92,6 +92,10 @@ h3 {
   * {
     font-size: 1rem;
   }
+  h3, h2{
+    font-size: 1.2rem;
+    margin: 1px auto;
+  }
 }
 @media screen and (max-width: 540px) {
   .menu li a {
