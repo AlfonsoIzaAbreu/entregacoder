@@ -107,4 +107,10 @@ div .videolbdp{
       height: auto;
       padding: 0.5rem;
     }
+    .lbdptext{
+      font-size: 1rem;
+    margin: 1px ,auto;
+    text-align: center;
+
+    }
     }
