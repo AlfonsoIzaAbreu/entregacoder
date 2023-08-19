@@ -1,48 +1,5 @@
-.navContainer {
-  width: 100%;
-}
-.containerIconoTitulo {
+.logonacional{
   display: flex;
-  align-items: start;
-  justify-content: start;
-}
-
-.iconoTitulo {
-  width: 12%;
-  height: 91%;
-  margin: 1% 0 0 3%;
-}
-.iconoTitulo:hover {
-  transform: scale(1.2);
-}
-div .menu {
-  list-style: none;
-  background: #3066be;
-  margin: auto;
-  display: flex;
-  justify-content: start, center;
-}
-.menu li a {
-  text-decoration: none;
-  color: white;
-  padding: 20px;
-  display: block;
-}
-.menu li {
-  display: inline-block;
-  text-align: center;
-}
-.menu li a:hover {
-  background: skyblue;
-}
-.navv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-ul {
-  margin: 0;
 }
 .titulo2 {
   color: white;
