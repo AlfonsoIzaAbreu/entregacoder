@@ -109,7 +109,7 @@ body {
       " resultados resultados";
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 518px) {
   .menu1 {
     margin: 0;
     display: grid;
@@ -129,5 +129,9 @@ body {
     border: solid 1px darkblue;
     font-size: 7px;
     margin: 0;
+  }
+  .mainInfoPartidos{
+    display: flex;
+    flex-direction: column;
   }
 }

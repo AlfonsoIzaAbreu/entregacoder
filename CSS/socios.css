@@ -1,4 +1,19 @@
-.logonacional{
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import "./partials/reset";
+@import "./partials/variables";
+@import "./partials/redes";
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+}
+.nav {
+  font-family: "Amatic SC", cursive;
+  color: rgb(255, 253, 253);
+  background-color: skyblue;
+  text-align: center;
+}
+.logonacional {
   display: flex;
 }
 .titulo2 {
@@ -6,7 +21,7 @@
   text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
     0 0 5px rgb(0, 38, 255);
   text-align: center;
-  margin: 2% 0;
+  margin: 2%;
 }
 .ftosocios {
   display: flex;
@@ -52,8 +67,10 @@
   img {
     width: 65%;
   }
-  h3, h2, h1{
-      font-size: 1.2rem;
+  h3,
+  h2,
+  h1 {
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width: 540px) {
@@ -66,7 +83,12 @@
     height: auto;
     padding: 0.5rem;
   }
-  h3, h2,  h1{
+  h3,
+  h2,
+  h1 {
     font-size: 1rem;
-}
+  }
+  .nav {
+    font-size: 1rem;
+  }
 }

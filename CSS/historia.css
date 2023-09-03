@@ -1,4 +1,19 @@
-.logonacional{
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import "./partials/reset";
+@import "./partials/variables";
+@import "./partials/redes";
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+}
+.nav {
+  font-family: "Amatic SC", cursive;
+  color: rgb(255, 253, 253);
+  background-color: skyblue;
+  text-align: center;
+}
+.logonacional {
   display: flex;
 }
 .titulo2 {
@@ -14,20 +29,20 @@ h2 {
   text-align: center;
   color: skyblue;
   text-shadow: 0 0 2px lightblue;
-  margin: 20px , auto;
+  margin: 20px, auto;
 }
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(195, 212, 212);
   background: rgb(13, 34, 80);
   box-sizing: content-box;
-  margin: 20px , auto;
+  margin: 20px, auto;
 }
 .textohistoria {
   text-align: center;
-  width: 50%;
+  width: 85%;
   height: 20%;
-  margin: 0 0 0 25%;
+  margin: auto;
 }
 .titulo {
   background: #3066be;
@@ -49,9 +64,10 @@ h3 {
   * {
     font-size: 1rem;
   }
-  h3, h2{
+  h3,
+  h2 {
     font-size: 1.2rem;
-    margin: 1px auto;
+    margin: 1px;
   }
 }
 @media screen and (max-width: 540px) {
@@ -64,8 +80,9 @@ h3 {
     height: auto;
     padding: 0.5rem;
   }
-  h3, h2{
+  h3,
+  h2 {
     font-size: 1rem;
-    margin: 1px auto;
+    margin: 5px;
   }
 }

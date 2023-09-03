@@ -1,82 +1,95 @@
-.logonacional{
-  display: flex;
-}
-body{
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import "./partials/reset";
+@import "./partials/variables";
+@import "./partials/redes";
+body {
+  background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
-  .titulo2 {
-    color: white;
-    text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
-      0 0 5px rgb(0, 38, 255);
-    text-align: center;
-    margin: 2% 0;
-  }
-.lbdptext{
-    margin: 0 11% 3% 11%;
-    color: white;
-
+.nav {
+  font-family: "Amatic SC", cursive;
+  color: rgb(255, 253, 253);
+  background-color: skyblue;
+  text-align: center;
 }
-.videolbdp{
-    display: flex;
+.logonacional {
+  display: flex;
+}
+body {
+  background-size: cover;
+}
+.titulo2 {
+  color: white;
+  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
+    0 0 5px rgb(0, 38, 255);
+  text-align: center;
+  margin: 2% 0;
+}
+.lbdptext {
+  margin: 0 11% 3% 11%;
+  color: white;
+}
+.videolbdp {
+  display: flex;
   justify-content: center;
 }
-div .videolbdp{
-    width: 100%;
-    height: 100%;
-    margin: 0 0 3rem 0;
+div .videolbdp {
+  width: 100%;
+  height: 100%;
+  margin: 0 0 3rem 0;
 }
 .titulo {
-    background: #3066be;
-    text-align: left;
-    font-size: 40px;
-    font-family: "Belanosima", sans-serif;
-    text-decoration: none;
-    display: flex;
-  }
-  .ftos{
-    width: 70vh;
-    display: flex;
-    justify-content: center;
-    margin: 5px auto;
-    border: solid 2px white;
-  }
+  background: #3066be;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Belanosima", sans-serif;
+  text-decoration: none;
+  display: flex;
+}
+.ftos {
+  width: 70vh;
+  display: flex;
+  justify-content: center;
+  margin: 5px auto;
+  border: solid 2px white;
+}
 
-  @media screen and (max-width: 1024px) {
-    .iconoTitulo{
+@media screen and (max-width: 1024px) {
+  .iconoTitulo {
     width: 70px;
     height: auto;
     padding: 1rem;
-    }
-    img{
-      width: 65%;
-    }
-    *{
-      font-size: 1rem;
-    }
-    .lbdptext{
-    margin: 1px , auto;
-    }
-    h2{ 
-      font-size: 1.2rem;
-    }
-    }
-    @media screen and (max-width: 540px){
-    .menu li a{
-      padding: 5px;
-      font-size: 0.7rem;
-    }
-    .iconoTitulo{
-      width: 50px;
-      height: auto;
-      padding: 0.5rem;
-    }
-    .lbdptext{
-      font-size: 0.5rem;
-    margin: 1px ,auto;
+  }
+  img {
+    width: 65%;
+  }
+  * {
+    font-size: 1rem;
+  }
+  .lbdptext {
+    margin: 1px, auto;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .menu li a {
+    padding: 5px;
+    font-size: 0.7rem;
+  }
+  .iconoTitulo {
+    width: 50px;
+    height: auto;
+    padding: 0.5rem;
+  }
+  .lbdptext {
+    font-size: 0.5rem;
+    margin: 1px, auto;
     text-align: center;
-
-    }
-    h2{ 
-      font-size: 1rem;
-    }
-    }
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
