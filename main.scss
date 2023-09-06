@@ -8,18 +8,17 @@ body {
   background-size: cover;
 }
 .menu1 {
-  height: 90vh;
+  height: 60vh;
   margin: 0.5rem;
   display: grid;
 
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr 0.8fr;
+  grid-template-rows: 1fr 1fr ;
   gap: 0.5rem;
 
   grid-template-areas:
     "historia logo socios"
-    "lbdp     logo plantel"
-    ". resultados .";
+    "lbdp     logo plantel";
 
   a {
     color: white;
@@ -58,7 +57,9 @@ body {
   font-family: "Oswald", sans-serif;
   align-items: end;
 }
-
+footer{
+  margin: 1rem;
+}
 .resultados {
   grid-area: resultados;
   display: flex;
