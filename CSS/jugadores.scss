@@ -12,6 +12,7 @@ body {
   color: rgb(255, 253, 253);
   background-color: skyblue;
   text-align: center;
+  font-size: 1.5rem;
 }
 .titulo2 {
   color: white;
@@ -78,9 +79,13 @@ div.alljugadores {
     margin: 0;
   }
 }
-@media screen and (max-width: 566px) {
+@media screen and (max-width: 575px) {
   .logonacional {
     display: flex;
+  }
+  .nav{
+    font-size: 1rem;
+
   }
 }
 @media screen and (max-width: 370px) {
