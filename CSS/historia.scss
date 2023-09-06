@@ -1,29 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: none;
-  text-decoration: none;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-}
-.footer .redes {
-  width: 2rem;
-  height: 2rem;
-  background-color: 101, 199, 238;
-}
-
+@import "../partials/reset";
+@import "../partials/variables";
+@import "../partials/redes";
 body {
   background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
-
 .nav {
   font-family: "Amatic SC", cursive;
   color: rgb(255, 253, 253);
@@ -33,27 +16,33 @@ body {
 
 .titulo2 {
   color: white;
-  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255), 0 0 5px rgb(0, 38, 255);
+  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
+    0 0 5px rgb(0, 38, 255);
   text-align: center;
   margin: 2% 0;
 }
-
-.lbdptext {
-  margin: 0 11% 3% 11%;
-  color: white;
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  text-align: center;
+  color: skyblue;
+  text-shadow: 0 0 2px lightblue;
+  margin: 20px, auto;
 }
 
-.videolbdp {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 3rem 0;
+.textohistoria {
+  text-align: center;
+  width: 85%;
+  height: 20%;
+  margin: auto;
+  h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(195, 212, 212);
+  background: rgb(13, 34, 80);
+  box-sizing: content-box;
+  margin: 20px, auto;
 }
-
-iframe {
-  width: 512px;
-  height: 320px;
 }
-
 .titulo {
   background: #3066be;
   text-align: left;
@@ -62,13 +51,11 @@ iframe {
   text-decoration: none;
   display: flex;
 }
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 1rem;
-}
-
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem;
+  }
 @media screen and (max-width: 1024px) {
   .iconoTitulo {
     width: 70px;
@@ -81,15 +68,10 @@ ul {
   * {
     font-size: 1rem;
   }
-  .lbdptext {
-    margin: 1px, auto;
-  }
+  h3,
   h2 {
     font-size: 1.2rem;
-  }
-  iframe {
-    width: 400px;
-    height: 250px;
+    margin: 1px;
   }
 }
 @media screen and (max-width: 540px) {
@@ -102,16 +84,9 @@ ul {
     height: auto;
     padding: 0.5rem;
   }
-  .lbdptext {
-    font-size: 0.5rem;
-    margin: 1px, auto;
-    text-align: center;
-  }
+  h3,
   h2 {
     font-size: 1rem;
+    margin: 5px;
   }
-  iframe {
-    width: 300px;
-    height: 150px;
-  }
-}/*# sourceMappingURL=lbdp.css.map */
+}

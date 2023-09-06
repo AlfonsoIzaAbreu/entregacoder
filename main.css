@@ -111,6 +111,11 @@ body {
   border: solid darkblue 2px;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .menu1 {
     display: grid;

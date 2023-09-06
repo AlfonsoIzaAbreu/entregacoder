@@ -1,72 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: none;
-  text-decoration: none;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-}
-.footer .redes {
-  width: 2rem;
-  height: 2rem;
-  background-color: 101, 199, 238;
-}
-
+@import "../partials/reset";
+@import "../partials/variables";
+@import "../partials/redes";
 body {
   background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
-
 .nav {
   font-family: "Amatic SC", cursive;
   color: rgb(255, 253, 253);
   background-color: skyblue;
   text-align: center;
 }
-
 .titulo2 {
   color: white;
-  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255), 0 0 5px rgb(0, 38, 255);
+  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
+    0 0 5px rgb(0, 38, 255);
   text-align: center;
-  margin: 2%;
+  margin: 2% 0;
 }
-
-.ftosocios {
+.lbdptext {
+  margin: 0 11% 3% 11%;
+  color: white;
+}
+.videolbdp {
   display: flex;
   justify-content: center;
-  margin: 1rem;
+  margin: 0 0 3rem 0; 
+} iframe{
+  width: 512px;
+  height:320px ;
 }
-
-.condisection {
-  background-image: linear-gradient(to top, blue, skyblue);
-  border: solid 2px white;
-}
-.condisection .condiciones {
-  font-size: 20px;
-  text-align: center;
-  color: white;
-  text-shadow: 3px blue;
-  text-decoration: underline;
-  margin: 0 0 2% 0;
-}
-.condisection .tipos {
-  font-size: 15px;
-  text-align: center;
-  color: white;
-  margin: 2% 0 1.5% 0;
-}
-.condisection .condicionestext {
-  color: white;
-  text-align: center;
-}
-
 .titulo {
   background: #3066be;
   text-align: left;
@@ -75,13 +40,11 @@ body {
   text-decoration: none;
   display: flex;
 }
-
-ul {
+ul{
   list-style-type: none;
   padding: 0;
   margin: 1rem;
 }
-
 @media screen and (max-width: 1024px) {
   .iconoTitulo {
     width: 70px;
@@ -91,10 +54,18 @@ ul {
   img {
     width: 65%;
   }
-  h3,
-  h2,
-  h1 {
+  * {
+    font-size: 1rem;
+  }
+  .lbdptext {
+    margin: 1px, auto;
+  }
+  h2 {
     font-size: 1.2rem;
+  }
+  iframe{
+    width: 400px;
+    height: 250px ;
   }
 }
 @media screen and (max-width: 540px) {
@@ -107,12 +78,16 @@ ul {
     height: auto;
     padding: 0.5rem;
   }
-  h3,
-  h2,
-  h1 {
+  .lbdptext {
+    font-size: 0.5rem;
+    margin: 1px, auto;
+    text-align: center;
+  }
+  h2 {
     font-size: 1rem;
   }
-  .nav {
-    font-size: 1rem;
+  iframe{
+    width: 300px;
+    height: 150px ;
   }
-}/*# sourceMappingURL=socios.css.map */
+}

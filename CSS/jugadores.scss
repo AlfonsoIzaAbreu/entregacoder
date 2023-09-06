@@ -1,69 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: none;
-  text-decoration: none;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-}
-.footer .redes {
-  width: 2rem;
-  height: 2rem;
-  background-color: 101, 199, 238;
-}
-
+@import "../partials/reset";
+@import "../partials/variables";
+@import "../partials/redes";
 body {
   background-image: url(../img/fondo.jpg);
   background-size: cover;
 }
-
 .nav {
   font-family: "Amatic SC", cursive;
   color: rgb(255, 253, 253);
   background-color: skyblue;
   text-align: center;
 }
-
 .titulo2 {
   color: white;
-  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255), 0 0 5px rgb(0, 38, 255);
+  text-shadow: 1px 2px 2px rgb(16, 67, 233), 0 0 25px rgb(25, 0, 255),
+    0 0 5px rgb(0, 38, 255);
   text-align: center;
   margin: 2% 0;
 }
-
 div.alljugadores {
   display: flex;
   flex-wrap: wrap;
-}
-div.alljugadores div.datos {
-  text-align: center;
-  text-shadow: 2px 2px 2px rgb(255, 0, 0);
-  color: rgb(250, 251, 252);
-}
-div.alljugadores p {
-  margin: 0;
-}
-div.alljugadores img {
-  width: 100%;
-}
-div.alljugadores div.jugadores {
+  div.datos {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(255, 0, 0);
+    color: rgb(250, 251, 252);
+  }
+  p {
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+  div.jugadores {
   margin: 21px;
   box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 8rem;
   animation-name: agrandarse;
   animation-duration: 2s;
 }
-div.alljugadores .jugadores:hover {
+  .jugadores:hover {
   transform: scale(1.2);
 }
-
+}
 @keyframes agrandarse {
   0% {
     width: 1%;
@@ -106,4 +87,4 @@ div.alljugadores .jugadores:hover {
   .logonacional {
     display: flex;
   }
-}/*# sourceMappingURL=jugadores.css.map */
+}
